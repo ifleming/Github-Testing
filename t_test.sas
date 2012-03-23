@@ -25,6 +25,7 @@ proc print data=efh;
 run;
  
 /*comment*/
+/*htu: added this comment to test forking. */
 
 proc ttest data=efh;
    class cond;
